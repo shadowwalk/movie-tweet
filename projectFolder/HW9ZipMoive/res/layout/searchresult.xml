@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:id = "@+id/mainLayout"
+    >
+    
+  <ScrollView  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >  
+   	  <LinearLayout    
+   	      android:layout_width="fill_parent"
+  		  android:layout_height="fill_parent"
+   		  android:orientation="vertical" >
+   		  
+	     <LinearLayout  
+	     	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:orientation="horizontal" 
+	    
+	   	 > 
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		   		android:layout_height="fill_parent"
+		    	android:orientation="vertical" 
+		    	android:id = "@+id/myMovieGroup"
+		     >      
+		    </LinearLayout>    
+		       
+		 
+		
+			<RadioGroup
+			    android:id="@+id/myRadioGroup"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_gravity="right"
+			    android:gravity="right"
+			    android:orientation="vertical" 
+			    >
+			</RadioGroup>
+		</LinearLayout>
+		
+       
+		 <Button 
+		     android:visibility="invisible" 
+		     android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+		     android:id = "@+id/tweetButton"
+		     android:text="Tweet"
+		 />
+ 		 <Button 
+		     android:visibility="invisible" 
+		     android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+		     android:id = "@+id/backButton"
+		     android:text="Go Back"
+		 />
+ </LinearLayout>
+ 
+</ScrollView > 
+</LinearLayout>
